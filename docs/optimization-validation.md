@@ -40,7 +40,7 @@ Pyflakes、Python 语法检查和 `git diff --check` 通过。项目没有独立
 
 [preserved-files.json](preserved-files.json)记录 64 个历史文件的 SHA-256：原 CSV、完整原 Notebook 归档、原始图片。原 Notebook 的内容和已有输出逐字节保存为 `archive/WeatherForNanjing.original.ipynb`；活动 Notebook 只保留参数、共享流程调用和结果说明。
 
-临时联系图与 Notebook 比较目录的清理命令被自动策略拒绝，目录仍保留；交付保留 `outputs/verified-20261015/` 的 61 张新图、manifest、共享代码、测试和验证文档。未修改历史数据和图片，未提交或推送。
+临时联系图与 Notebook 比较目录的清理命令被自动策略拒绝，目录仍保留；交付保留 `outputs/verified-20261015/` 的 61 张新图、manifest、共享代码、测试和验证文档。历史数据和图片的原始字节保持不变。
 ## 本机清理实际结果
 
 真实源站探测的中间 JSON 已转存为 `docs\network-probe.json`，原中间文件 `tests\fixtures\site-202302.json` 已删除。以下删除目标均由本轮创建并核验路径，但自动审批策略在启动 PowerShell 前返回 `blocked by policy`，这些删除实际未执行；没有换工具、路径或权限重试。
