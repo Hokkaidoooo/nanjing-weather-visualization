@@ -1,0 +1,20 @@
+{
+  "fetched_at_utc": "2026-10-15T03:20:02.871542+00:00",
+  "year": 2023,
+  "month": 2,
+  "parsed": false,
+  "request_url": "https://lishi.tianqi.com/nanjing/202302.html",
+  "timeout_seconds": 15,
+  "max_attempts": 1,
+  "result": "ReadTimeout",
+  "error": "采集 2023-02 失败，尝试 1/1 次：HTTPSConnectionPool(host='lishi.tianqi.com', port=443): Read timed out. (read timeout=15)",
+  "html_received": false,
+  "csv_created": false,
+  "robots_probe": {
+    "request_url": "https://lishi.tianqi.com/robots.txt",
+    "final_url": "http://lishi.tianqi.com/404.html",
+    "status_code": 200,
+    "usable_rules": false,
+    "response_kind": "HTML error page"
+  }
+}

@@ -1,0 +1,6 @@
+numpy==2.2.6
+matplotlib==3.10.9
+Pillow==11.3.0
+wordcloud==1.9.3
+requests==2.34.2
+lxml==4.9.1

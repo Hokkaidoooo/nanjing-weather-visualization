@@ -1,0 +1,4 @@
+-r requirements.txt
+nbformat==5.7.0
+nbclient==0.5.13
+ipykernel==6.19.2

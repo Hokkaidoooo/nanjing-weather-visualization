@@ -1,0 +1,456 @@
+{
+  "status": "complete",
+  "year": 2023,
+  "record_count": 365,
+  "image_count": 61,
+  "weather_category_counts": {
+    "中雨": 3,
+    "中雨~多云": 3,
+    "中雨~大雨": 1,
+    "中雨~小雨": 4,
+    "中雨~晴": 1,
+    "中雨~阴": 1,
+    "中雨~阵雨": 1,
+    "中雨到暴风雨": 1,
+    "多云": 91,
+    "多云~中雨": 6,
+    "多云~小雨": 7,
+    "多云~晴": 23,
+    "多云~阴": 19,
+    "多云~阵雨": 1,
+    "多云~雷阵雨": 5,
+    "多云转晴": 1,
+    "大雨~暴雨": 1,
+    "大雨~阴": 1,
+    "大雪~小雪": 1,
+    "小雨": 11,
+    "小雨~中雨": 4,
+    "小雨~多云": 7,
+    "小雨~大雨": 1,
+    "小雨~阴": 14,
+    "小雨~雷阵雨": 4,
+    "小雨到暴雨": 1,
+    "小雨转阴": 2,
+    "小雪~多云": 1,
+    "晴": 30,
+    "晴~多云": 15,
+    "晴~小雨": 1,
+    "晴~阴": 3,
+    "暴雨~阴": 1,
+    "暴雨~雷阵雨": 1,
+    "阴": 20,
+    "阴~中雨": 3,
+    "阴~多云": 36,
+    "阴~大雨": 1,
+    "阴~小雨": 3,
+    "阴~晴": 5,
+    "阴~阵雨": 1,
+    "阴~雷阵雨": 5,
+    "雨夹雪": 2,
+    "雾": 6,
+    "雾~多云": 8,
+    "雾~小雨": 1,
+    "雾~晴": 1,
+    "雾~阴": 4,
+    "雾~阵雨": 1,
+    "雾~雷阵雨": 1
+  },
+  "weather_category_total_days": 365,
+  "font": {
+    "filename": "simhei.ttf",
+    "family": "SimHei",
+    "sha256": "aa4560dd8fe5645745fed3ffa301c3ca4d6c03cbd738145b613303961ba733b8"
+  },
+  "parameters": {
+    "backend": "Agg",
+    "dpi": 140,
+    "wordcloud_random_state": 42,
+    "date_axis": "day of month",
+    "scatter_color": "fixed colors identify high and low temperature; no colorbar",
+    "heatmap": "one column per day; highest minus lowest temperature in Celsius",
+    "3d": "day, highest Celsius, lowest Celsius; color is daily temperature range",
+    "weather_categories": "complete original category strings; compound weather remains one daily category"
+  },
+  "versions": {
+    "python": "3.10.9",
+    "matplotlib": "3.10.9",
+    "numpy": "2.2.6",
+    "Pillow": "11.3.0",
+    "wordcloud": "1.9.3",
+    "requests": "2.34.2",
+    "lxml": "4.9.1"
+  },
+  "images": [
+    {
+      "name": "line/01.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "f000ef6aa7e47d5c95c52cc7e02066d4a86adca0e68e98c0ffc52873d10c5c3f"
+    },
+    {
+      "name": "line/02.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "8d858131da2d8c66cf243e9c1112e2c08b0f8cd4b199e68e012a06564f2fcd56"
+    },
+    {
+      "name": "line/03.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "12c2f50e8d3bd8b1e90777d8352a069cf2ac8d0b1709667c449f7599aca900e8"
+    },
+    {
+      "name": "line/04.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "1f47d3101203141071787314191f563ec048269840b26013ace2a7448bb45ee9"
+    },
+    {
+      "name": "line/05.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "1f593ce63521a1e46e97e14d48624db5dcb87e543ddbee9e28d240e598ca2cc9"
+    },
+    {
+      "name": "line/06.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "e46084fa0ca87180075e0f436202be7187a31828a2896e47aa8cf0d89f293cec"
+    },
+    {
+      "name": "line/07.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "2d509c777888a2dbf6f460f8672850f7864f7e09e82598172930ebedfec9e7e2"
+    },
+    {
+      "name": "line/08.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "3ef2771a537a75e542caf7aa98b9544ece8faf998ac2d1f13131d4cc06b6c252"
+    },
+    {
+      "name": "line/09.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "8525e281775b5dadde93cb3f93a1eb564f01331f023c6dce47b9c6648b59ceb4"
+    },
+    {
+      "name": "line/10.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "18a8a281a8e1b7ad998482379720812d59a65dfdcdce36f895352087822fda46"
+    },
+    {
+      "name": "line/11.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "637ec8a109d4d3ac115e1a67816224496ff1d3d262fcfdd336e8b1cfd14eafd2"
+    },
+    {
+      "name": "line/12.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "8214db108b24f08c22093be2154f018f82627f16e59ca133e2b4bbcb8ebe6a57"
+    },
+    {
+      "name": "scatter/01.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "9a3df9e5919c7f6f28a81e07183cf11894e5668895da227dd27f1ffc5a1e32bc"
+    },
+    {
+      "name": "scatter/02.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "7ab3169d596e30e0b4efa18656b868d94d492e2ea766f8736e4266b701e22eda"
+    },
+    {
+      "name": "scatter/03.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "fe8f6a327bd3e837b915e41960d0b9eff1e95fbb28954217def77554744c64b8"
+    },
+    {
+      "name": "scatter/04.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "15d067c6f66bfa0ec3301c3243d7bc3dfa00a5c7764b612b111e5769d08f262a"
+    },
+    {
+      "name": "scatter/05.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "0b8c2f3dcdb63eb20ea2b02e63e47274f63cc1d894dcfe0e7825d529c585fc96"
+    },
+    {
+      "name": "scatter/06.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "c218e377aa96dc0eb2b1d58601acf47048b1b2fe1e39541bc8d7aefaf4bd664f"
+    },
+    {
+      "name": "scatter/07.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "84be718fe30a7ad2f317cbaafe1fc10053492474d9bbf7353cb55c8409692d96"
+    },
+    {
+      "name": "scatter/08.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "4b5856316fbb606f960d3c779ade2573bcb54a58747497b6631a275792e5c94a"
+    },
+    {
+      "name": "scatter/09.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "61961373d32f3509242663cff7ed3bf7355a5c2f1619589042c594d34198ffa1"
+    },
+    {
+      "name": "scatter/10.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "a067f6d455c1e3cf9163aa61f197180c1aa8ce1bc430fb9d93ad1c2d4fa0cc30"
+    },
+    {
+      "name": "scatter/11.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "36a9fa43ee2cd89cfe7d31c4ec65f9e3ce1270702cd86d30de2736393a768240"
+    },
+    {
+      "name": "scatter/12.png",
+      "width": 1416,
+      "height": 856,
+      "sha256": "76e918547d4f5d19beb6932f22c27cfc2380ca467551133719366469f80b3369"
+    },
+    {
+      "name": "pie/01.png",
+      "width": 1057,
+      "height": 856,
+      "sha256": "fdc493a6a63cbf0b4f6efe13b0d5e0b24ce0c5e54c87938604c60f88b1cd9097"
+    },
+    {
+      "name": "pie/02.png",
+      "width": 1045,
+      "height": 856,
+      "sha256": "9038639780ad6c5b9dec0f62f53ef51e06ff62a4e95d7addfac517d57ca4b15e"
+    },
+    {
+      "name": "pie/03.png",
+      "width": 1092,
+      "height": 856,
+      "sha256": "4090d86bac1a505f2add5c98787f92be476d35464d512f00e039ea12b317927d"
+    },
+    {
+      "name": "pie/04.png",
+      "width": 1092,
+      "height": 856,
+      "sha256": "0f361349201979dd9325e9a61c27be385bc24c70eda795844ee8ea3c8d762a39"
+    },
+    {
+      "name": "pie/05.png",
+      "width": 1116,
+      "height": 856,
+      "sha256": "babe19b03064315c54a504e47a9b2fa7a868a21479742629da31e24dd6fbe6bb"
+    },
+    {
+      "name": "pie/06.png",
+      "width": 1116,
+      "height": 856,
+      "sha256": "b89316cc6877e8f97694d7076b08b4c9995dc70b0cc19493e87cc3c2f0069d0b"
+    },
+    {
+      "name": "pie/07.png",
+      "width": 1116,
+      "height": 856,
+      "sha256": "ebd76b7993c375d705fd24fe24cb55422c811f8853b8897d740c769de14d5191"
+    },
+    {
+      "name": "pie/08.png",
+      "width": 1127,
+      "height": 856,
+      "sha256": "28d40a54e2fa95281a36b96cd861e27dbd8c89c54df118ac0bec4abc7d9a45cc"
+    },
+    {
+      "name": "pie/09.png",
+      "width": 1092,
+      "height": 856,
+      "sha256": "04b4ebdd484547af690ea8bf08f06adb4780062ab1c314d4c25a8dc2314d780f"
+    },
+    {
+      "name": "pie/10.png",
+      "width": 1092,
+      "height": 856,
+      "sha256": "23a7adb64afefa579f506edc3c1f881402dfb71318baa76dd13a91e19d08b478"
+    },
+    {
+      "name": "pie/11.png",
+      "width": 1092,
+      "height": 856,
+      "sha256": "de36953ebb8648ee369854a3b14b9a76a321bb08c383b707c437f55c20db6b86"
+    },
+    {
+      "name": "pie/12.png",
+      "width": 1092,
+      "height": 856,
+      "sha256": "837939b6919b306930dff740b9d752c7baca5473ec7e1b9613b287d1a29e72b4"
+    },
+    {
+      "name": "heatmap/01.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "57b6ea5a81ee688c9c29ec23969917ab3fbf31101b9f39e4ae7fd458001c1b2f"
+    },
+    {
+      "name": "heatmap/02.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "86399e4a4c24efda2e458483a8730935cc1da9ad16c91ce6e5027c62e87ed406"
+    },
+    {
+      "name": "heatmap/03.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "09bbfc4bf3b83e979b56c6efdd75c61f2f2c8107f2a9ab3536ec68c089318c39"
+    },
+    {
+      "name": "heatmap/04.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "347ba0d7ef5dce76f31e77085e39325ddb2e1513d302f1df64b6a02ab04b649a"
+    },
+    {
+      "name": "heatmap/05.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "2c32489c322ab93126080342a1837e994b335dc5a3ca8156debb18d92f91537d"
+    },
+    {
+      "name": "heatmap/06.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "b0bdfd79557024cc1234721b7419ba5324c71b01af2bc5115a8a6fdf28071eae"
+    },
+    {
+      "name": "heatmap/07.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "c7f06e78ebc7abaa27dad9a27add60a753a631597d11980a3f7bf93bedc1f593"
+    },
+    {
+      "name": "heatmap/08.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "7652808a32aebf5e7042b1ea966a10944e799ae8524780874fcebc91e619340a"
+    },
+    {
+      "name": "heatmap/09.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "82704173d0439facecd5533393f7562fed5abbca155b344142a19823471ba3bd"
+    },
+    {
+      "name": "heatmap/10.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "5d68c756fe533a5325b7cd42fb2bd3ffc69edf592ce5f22717aee5fa93e389a9"
+    },
+    {
+      "name": "heatmap/11.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "6e8b2915068030af11304327938de3f652e38b580a78482739dd3bd85d292017"
+    },
+    {
+      "name": "heatmap/12.png",
+      "width": 1413,
+      "height": 856,
+      "sha256": "dd3e27cec0bd456b2747ce76b80408eccdbfb8a0e169ef07c2eda7feba3552c9"
+    },
+    {
+      "name": "3d/01.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "5ca07b99f8e34187d272f5c42a23cb89fffe223ee3cb8ba040f6084895bc5925"
+    },
+    {
+      "name": "3d/02.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "4761d33f7f44d33531fe0c194badb778509739b7c9a508ab63ed92c13dd0a864"
+    },
+    {
+      "name": "3d/03.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "3691433b06fecd5a1bc0602fca3edfbcdbedd332db17a3d3701671df71ef40be"
+    },
+    {
+      "name": "3d/04.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "705ebe2689d91cce81627b2b69eca2e6e791db28a83e85472d45d465390c812d"
+    },
+    {
+      "name": "3d/05.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "daac04a69d673006a5672e74db1c8dd1ec69c50df99bf04c2523572f058f7d20"
+    },
+    {
+      "name": "3d/06.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "4cdf9f07f04e65b6d64837e00264825f9a5af7b29ab2a10c1764a0d39b6c60d2"
+    },
+    {
+      "name": "3d/07.png",
+      "width": 1039,
+      "height": 856,
+      "sha256": "e2e44769faa8d96e69818b82acb603e02c4388ca8854c7ad4c1f78ea92ce2d96"
+    },
+    {
+      "name": "3d/08.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "0efa7e22c9144905b475970fbe93631d6eb7de9f001b96bf8006a2ac49aced68"
+    },
+    {
+      "name": "3d/09.png",
+      "width": 1039,
+      "height": 856,
+      "sha256": "ae03832959848361b8c401ffdf3425ebcc456a7a220c60b41b61b3c38ba4444c"
+    },
+    {
+      "name": "3d/10.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "5b22b6324706b1f456515feb807b8d62423150064b49f056ca507c0a58342bda"
+    },
+    {
+      "name": "3d/11.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "19407219c9b8bcfcb0dd1995424b445de0aba019c3a14473f7405a2b32ddd8f2"
+    },
+    {
+      "name": "3d/12.png",
+      "width": 1049,
+      "height": 856,
+      "sha256": "abe0e772b65d85c2a8eec73a0bb70dd7a10477bc4702a888032510ce5d91d5e0"
+    },
+    {
+      "name": "wordcloud.png",
+      "width": 1615,
+      "height": 856,
+      "sha256": "550ab4bfaa5d4ee0f20ae887d1a36eaf61134973f2d575c15ea5bcf20c1937a5"
+    }
+  ],
+  "input": {
+    "filename": "weather.csv",
+    "sha256": "d9f6bc81d362d0b2471e4c90f7c65c2c7e431f79151d64ba5909f92f200d0119",
+    "encoding": "gb18030"
+  }
+}

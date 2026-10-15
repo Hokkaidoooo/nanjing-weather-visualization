@@ -1,0 +1,15 @@
+{
+  "notebook_executed": true,
+  "matching_png_count": 61,
+  "input_sha256": "d9f6bc81d362d0b2471e4c90f7c65c2c7e431f79151d64ba5909f92f200d0119",
+  "versions": {
+    "python": "3.10.9",
+    "matplotlib": "3.10.9",
+    "numpy": "2.2.6",
+    "Pillow": "11.3.0",
+    "wordcloud": "1.9.3",
+    "requests": "2.34.2",
+    "lxml": "4.9.1"
+  },
+  "executed_python": "3.10.9"
+}
