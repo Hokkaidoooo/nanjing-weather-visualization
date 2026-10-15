@@ -4,7 +4,9 @@
 
 **[浏览 Notebook](WeatherForNanjing.ipynb)** · [查看数据](weather.csv) · [全部结果图](结果图/)
 
-![2023 年 1 月气温折线图，历史输出](结果图/折线图/plot_1.jpg)
+![南京 2023 年天气概览：全年逐日高低温、极值日期与最常见天气类别](assets/readme-weather-overview.png)
+
+基于 `weather.csv` 的全年 365 条记录：左侧为每日最高温与最低温，右侧为最常见的五种完整天气类别。
 
 ## 内容
 
