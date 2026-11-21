@@ -1,5 +1,7 @@
 # 南京 2023 年天气可视化
 
+**简体中文** · [English](README.en.md) · [Español](README.es.md) · [日本語](README.ja.md)
+
 使用保存的南京 2023 年天气记录，校验全年日期与温度，生成五类月图及年度天气类别词云。当前样本有 **365 个唯一日期、50 个完整天气类别**，五类图各覆盖十二个月，加词云共 **61 张新图**。
 
 **[查看新图](outputs/verified-20261015/)** · [Notebook](WeatherForNanjing.ipynb) · [验证记录](docs/optimization-validation.md)
